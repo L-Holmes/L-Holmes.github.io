@@ -152,13 +152,13 @@ h2 {
 }
 
 h3 {
-  color: #DBDBDB;
+  color: #EBE077;
   margin: 0px;
   font-size: 1.5rem;
 }
 
 h4 {
-  color: #DBDBDB;
+  color: #E0D46B;
   margin: 0px;
 }
 
@@ -491,7 +491,6 @@ body.font-dyslexia h4 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 90%;
   display: block;
 }
 .button-hitbox:hover .button-itelf, .filter-top-bar-option:hover .button-itelf, .button-hitbox-page-link:hover .button-itelf {

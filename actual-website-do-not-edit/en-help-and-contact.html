@@ -1,11 +1,36 @@
-<div class="vert-spacing-m"></div>
+<!DOCTYPE html>
+<html lang="en">
+	<title> Awpen </title>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="A cool website">
+		
+		<meta charset="UTF-8">
+
+		<link rel=stylesheet href="products2.css">
+
+		<script defer src="products2.js"></script>
+        <script defer src="shared/global.js"></script>
+	<link rel="stylesheet" href="shared/reusables/list-page/list-page.css">
+<script defer src="shared/reusables/list-page/list-page.js"></script>
+<link rel="stylesheet" href="shared/reusables/sort-button/sort-button.css">
+<script defer src="shared/reusables/sort-button/sort-button.js"></script>
+</head>
+	<body>
+        <div class="vert-spacing-m"></div>
 <div class="centre-wrapper">
 	<div class="filterable">
 		<div class="vert-spacing-xs"></div>
 
 		<div class="products-div">
 
-			{page-navigation}
+			<div class="align-centre">
+    <a class="page-nav" href='index.html'>  home  </a>
+    <div class="page-nav"> → </div>
+    <a class="page-nav" href='help-and-contact.html'> Help and Contact </a>
+</div>
+
+
 
 			<div class="vert-spacing-xs"></div>
 
@@ -13,21 +38,22 @@
                     <div class="clear-filters-tile filter-btn " onclick="clearFilters()">
 	<!-- {image-icon} --> <!-- Optional image icon -->
     <div class="filter-icon-wrapper">
-		<img class="clear-filters-icon" src="../../../shared/images/filtering/clear-filters-icon.png" alt="clear filters icon" loading="lazy"> 
+		<img class="clear-filters-icon" src="shared/images/filtering/clear-filters-icon.png" alt="clear filters icon" loading="lazy"> 
 	</div>
 	<!-- {image-icon} --> <!-- Optional image icon -->
 	<div class="title-and-info-wrapper">
 		<div class="centre-wrapper">
 			<div class="item-title"> 
                 
-				<img class="info-icon" src="../../../shared/images/filtering/info-icon.png" alt="info">   
-				<img class="info-hover-icon" src="../../../shared/images/filtering/info-icon-hover.png" alt="info">   
+				<img class="info-icon" src="shared/images/filtering/info-icon.png" alt="info">   
+				<img class="info-hover-icon" src="shared/images/filtering/info-icon-hover.png" alt="info">   
 			</div>
 		</div>
 	</div>
 </div>
 
-                    {main-filters}
+                    <!-- ERROR: Component 'content-help-main-filters' directory not found. -->
+                    <!-- ERROR: Component 'content-help-other-filters' directory not found. -->
 					<div class="filter-tile filter-btn thin-item list-page-wrapper" onclick="openAllFilters(this)">
 	<!-- {image-icon} --> <!-- Optional image icon -->
 	<!-- {image-icon} --> <!-- Optional image icon -->
@@ -35,12 +61,13 @@
 		<div class="centre-wrapper">
 			<div class="item-title"> 
 				...
-				<img class="info-icon" src="../../../shared/images/filtering/info-icon.png" alt="info">   
-				<img class="info-hover-icon" src="../../../shared/images/filtering/info-icon-hover.png" alt="info">   
+				<img class="info-icon" src="shared/images/filtering/info-icon.png" alt="info">   
+				<img class="info-hover-icon" src="shared/images/filtering/info-icon-hover.png" alt="info">   
 			</div>
 		</div>
 	</div>
 </div>
+
 
 
 
@@ -63,7 +90,6 @@
   </div>
 </div>
 
-                    {other-filters}
 
 					<button class="see-results-btn all-filters-wrapper" onclick="closeAllFilters(this)">
 						See results
@@ -75,11 +101,16 @@
 
 				<div class="list-page-wrapper">
 					<div class="items list-page-wrapper" id="items">
-
-						{content}
-
+						<!-- ERROR: Component 'content-help' directory not found. -->
 					</div>
-				</div>
+				</div> 
+
+
+				<!-- <div class="">
+					<div class="items" id="items">
+						<!-- ERROR: Component 'content-help' directory not found. -->
+					</div>
+				</div> -->
 
 		</div>
 
@@ -87,3 +118,6 @@
 
 	</div>
 </div>
+
+	</body>
+</html>

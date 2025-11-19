@@ -151,13 +151,13 @@ h2 {
 }
 
 h3 {
-  color: #EBE077;
+  color: #D7C85D;
   margin: 0px;
   font-size: 1.5rem;
 }
 
 h4 {
-  color: #E0D46B;
+  color: #E4DC6D;
   margin: 0px;
 }
 
@@ -810,12 +810,19 @@ body.font-dyslexia h4 {
 .change-lang-img {
   width: 55px;
   height: 55px;
+  display: block;
 }
 @media screen and (max-width: 440px) {
   .change-lang-img {
     width: 40px;
     height: 40px;
     margin-top: 30%;
+    display: block;
+  }
+}
+@media screen and (min-width: 441px) and (min-height: 440px) and (max-height: 600px) {
+  .change-lang-img {
+    display: none;
   }
 }
 

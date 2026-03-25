@@ -625,6 +625,16 @@
   height: 120px;
 }
 
+.item-images-smaller{
+  width: 60px;
+  height: 60px;
+}
+
+.item-text{
+  text-overflow:ellipsis;
+  overflow-x:hidden;
+}
+
 .item-description{
 
 }
@@ -714,6 +724,9 @@
   flex-wrap: wrap;
   flex-direction: row;
   gap: 10px 20px;
+}
+.single-item-wrapper:has(> :only-child) {
+  justify-content: center;
 }
 
 
